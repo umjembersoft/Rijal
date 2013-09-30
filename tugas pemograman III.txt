@@ -1,0 +1,71 @@
+REQUEST
+=======
+
+http://asus.com/
+
+GET / HTTP/1.1
+- method HTTP yang digunakan untuk meminta resource tertentu dari server -
+
+
+Host: asus.com
+- Host merupakan nama komputer. Pemberian nama ini spesifik, untuk satu komputer tertentu saja dalam suatu jaringan -
+
+
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:18.0) Gecko/20100101 Firefox/18.0
+- User Agent merupakan identitas dari browser yang sedang digunakan, disini User menggunakan browser Mozilla Firefox User Agent berupa sederatan kode string informasi yang dikirim ke web server dari browser yang kita gunakan saat mengakses sebuah halaman web -
+
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+- server dapat menerima aplikasi PHP dan teks html -
+
+
+Accept-Language: en-US,en;q=0.5
+- server dapat menerima bahasa "english-United Stated -
+
+
+Accept-Encoding: gzip, deflate
+- header accept-Encoding: untuk menerima pengkodean gzip, deflate dalam permintaan HTTP. GZIP adalah metode kompresi yang paling efektif yang tersedia saat ini -
+
+
+Cookie: __utma=246121108.1019383279.1380438621.1380438621.1380438621.1; __utmz=246121108.1380438621.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)
+- Membantu web site untuk “mengingat” siapa kita dan mengatur preferences yang sesuai sehingga apabila user kembali mengunjungi web site tersebut akan langsung dikenali -
+
+
+Connection: keep-alive
+- Koneksi yang dapat diakses -
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+RESPON
+======
+
+HTTP/1.1 302 Redirect
+- Koneksi yang dapat diakses -
+
+
+Content-Type: text/html; charset=UTF-8
+- Type berupa text/html; dengan unicode encoding dengan lebar-data tetap sebesar 8 bit -
+
+
+Location: http://www.asus.com/
+- alamat web -
+
+
+Server: Microsoft-IIS/7.5
+- Servernya berupa Microsoft-IIS/7.5 -
+
+
+X-Powered-By: ASP.NET
+- jenis provider yang digunakan -
+
+
+Date: Mon, 30 Sep 2013 06:22:26 GMT
+- Waktu User saat mengakses web asus -
+
+
+Content-Length: 143
+
+
+
+Via: 1.1 J5K-2 (jaguar/3.0-11)
